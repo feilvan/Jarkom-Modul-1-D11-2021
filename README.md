@@ -4,7 +4,7 @@ Anggota kelompok:
 - 05111940000067 - Fika Nur Aini
 - 05111940000095 - Fuad Elhasan Irfani
 - 05111940000203 - Fidhia Ainun Khofifah
-
+---
 
 6. Cari username dan password ketika melakukan login ke FTP Server!
     - Buka file 6-7.pcap lalu masukkan ```ftp``` pada display filter. Username dan password bisa dilihat di beberapa packet awal
