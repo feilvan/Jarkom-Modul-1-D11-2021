@@ -108,3 +108,7 @@ Anggota kelompok:
     - Masukkan perintah ```src net 192.168.39.131``` pada capture filter
     - Berikut merupakan tampilan hasil capture filter,
       ![15](https://github.com/feilvan/Jarkom-Modul-1-D11-2021/blob/3adcfb7592365574531d87821230f29eee5faffa/15.png)
+
+---
+## Kendala yang dialami
+Belum familiar dengan toolsnya. Terkadang tidak yakin apakah pengerjaannya sudah sesuai yang diinginkan atau belum.
