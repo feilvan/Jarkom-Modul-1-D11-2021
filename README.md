@@ -87,12 +87,14 @@ Anggota kelompok:
       
 12. Filter sehingga wireshark hanya mengambil paket yang mengandung ```port 21```
     - Masukkan perintah ```port 21``` pada capture filter.
-    - Berikut merupakan tampilan hasil capture filter,
+    - Berikut merupakan tampilan hasil capture filter.
       ![12](https://github.com/feilvan/Jarkom-Modul-1-D11-2021/blob/3adcfb7592365574531d87821230f29eee5faffa/12.png)
+    - Pada screenshot diatas tidak ditemukan paket apapun karena port 21 adalah port FTP. Dan untuk meng-capture paket dari FTP kita perlu capture ```adapter for loopback traffic capture```
+      ![Screenshot 2021-09-25 114234](https://user-images.githubusercontent.com/73324192/134765335-a1613c1f-572f-4394-8c2a-bc03f3d1a449.png)
 
 13. Filter sehingga wireshark hanya menampilkan paket yang menuju ```port 443```
     - Masukkan perintah ```dst port 443``` pada capture filter.
-    - Berikut merupakan tampilan hasil capture filter,
+    - Berikut merupakan tampilan hasil capture filter
       ![13](https://github.com/feilvan/Jarkom-Modul-1-D11-2021/blob/3adcfb7592365574531d87821230f29eee5faffa/13.png)
 
 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id
