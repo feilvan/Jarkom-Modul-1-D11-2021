@@ -5,6 +5,38 @@ Anggota kelompok:
 - 05111940000095 - Fuad Elhasan Irfani
 - 05111940000203 - Fidhia Ainun Khofifah
 ---
+1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
+   - Masukkan “host ichimarumaru.tech” pada capture filter lalu tekan enter
+   ![1](https://user-images.githubusercontent.com/68769284/134758038-bb255f50-1a64-4d39-9673-cabdf1f80493.JPG)
+   - Kunjungi ichimarumaru.tech
+   - Web server yang digunakan akan terlihat di HTTP respond (200 OK). Web server yang digunakan adalah NGINX
+   ![2](https://user-images.githubusercontent.com/68769284/134758156-d35e5428-8998-433a-a940-8d4fe7d51d0c.JPG)
+
+2. Temukan paket dari web-web yang menggunakan basic authentication method!
+   - Masukkan http.authbasic pada display filter
+   ![3](https://user-images.githubusercontent.com/68769284/134758211-7c29566f-fd5d-4ae4-bd2a-060c74949017.JPG)
+
+3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+   - Buka file 1-5.pcapng & masukkan http.authbasic pada display filter
+   ![4](https://user-images.githubusercontent.com/68769284/134758256-338ac8d2-47da-4817-abd7-565b39ea2f8b.JPG)
+   - Masukkan username: kuncimenujulautan dan password :tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN ke website basic.ichimarumaru.tech!
+   [5](https://user-images.githubusercontent.com/68769284/134758311-767b099e-b2b8-4143-9c77-b1e1f0dbae22.JPG)
+   - Tampilan setelah login beserta jawabannya sebagai berikut
+   ![6](https://user-images.githubusercontent.com/68769284/134758343-8026955a-790d-4aa6-ba41-002e476cc446.JPG)
+
+4. Temukan paket mysql yang mengandung perintah query select!
+   - Masukkan filter “mysql”  untuk mempermudah pencarian
+   ![7](https://user-images.githubusercontent.com/68769284/134758394-a882d273-95d6-4ab0-8fa2-4a6b353dbaf6.JPG)
+   ![8](https://user-images.githubusercontent.com/68769284/134758403-63a099b6-f3ad-42ab-a3bb-d881aca9f69f.JPG)
+   ![9](https://user-images.githubusercontent.com/68769284/134758408-23b55370-027c-484a-90a7-4a4da68a8e52.JPG)
+
+5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+   - buka file .pcap kemudian input mysql pada display filter
+   ![10](https://user-images.githubusercontent.com/68769284/134758441-2c3f102a-2893-4022-a57b-271f22d8708e.JPG)
+   - Masukkan username dan password yang sudah didapatkan ke portal.ichimarumaru.tech.
+   ![11](https://user-images.githubusercontent.com/68769284/134758490-8603694d-1130-453e-818b-e76c547f0558.JPG)   
+   - Tampilan setelah login beserta jawabannya sebagai berikut.
+   ![12](https://user-images.githubusercontent.com/68769284/134758480-629defff-58ba-4903-8bd5-7b9a21e4bbc8.JPG)
 
 6. Cari username dan password ketika melakukan login ke FTP Server!
     - Buka file 6-7.pcap lalu masukkan ```ftp``` pada display filter. Username dan password bisa dilihat di beberapa packet awal
